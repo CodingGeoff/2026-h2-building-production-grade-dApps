@@ -1,0 +1,20 @@
+{
+  "name": "student-682",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ethers": "^6.16.0",
+    "ganache": "^7.9.2",
+    "hardhat": "^3.4.5"
+  },
+  "dependencies": {
+    "solc": "^0.8.24"
+  }
+}
