@@ -32,9 +32,6 @@ async function main() {
   console.log("\n📌 任务 2：余额一致性测试");
   await checkBalanceConsistency(TEST_ETH_ADDRESS);
 
-  // ── 任务 3：System 预编译合约调用 ────────────────────────────────
-  console.log("\n📌 任务 3：System 预编译合约调用");
-  await demoSystemPrecompile(TEST_ETH_ADDRESS);
 
   console.log("\n✅ 所有任务执行完毕！");
 }
