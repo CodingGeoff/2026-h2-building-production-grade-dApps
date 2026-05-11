@@ -1,0 +1,24 @@
+{
+  "name": "student-2231-uniswap-v2-core",
+  "version": "1.0.0",
+  "description": "Homework 6 - Task 1: Deploy Uniswap V2 Core on Polkadot Hub TestNet",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:local": "hardhat test --network localNode",
+    "test:polkadot": "hardhat test --network polkadotTestnet",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localNode",
+    "deploy:polkadot": "hardhat run scripts/deploy.ts --network polkadotTestnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.11.19",
+    "hardhat": "^2.22.16",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  }
+}
