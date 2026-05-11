@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+artifacts/
+cache/
+.env
+coverage/
+.nyc_output/
+*.log
+.DS_Store
+.vscode/
+.idea/
+deployment-addresses.json
+hardhat.config.backup.js

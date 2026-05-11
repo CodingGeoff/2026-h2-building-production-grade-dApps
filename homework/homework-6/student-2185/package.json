@@ -1,0 +1,34 @@
+{
+  "name": "1924-uniswap-v2",
+  "version": "1.0.0",
+  "description": "Uniswap V2 and EVM-PVM Interoperability",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai",
+    "hardhat": "hardhat node",
+    "compile": "hardhat compile"
+  },
+  "keywords": [
+    "uniswap",
+    "v2",
+    "blockchain",
+    "dapp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "dotenv": "^17.4.2"
+  }
+}

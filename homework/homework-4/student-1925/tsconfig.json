@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,      /* 关键：跳过库文件类型检查 */
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": "."             /* 或者是 "./src"，取决于你的文件位置 */
+  },
+  "include": ["**/*.ts"],      /* 包含所有 ts 文件 */
+  "exclude": [
+    "node_modules",            /* 必须排除，防止 TS 扫描依赖包内部 */
+    "dist",
+    "artifacts",
+    "cache"
+  ]
+}

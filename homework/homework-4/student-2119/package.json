@@ -1,0 +1,22 @@
+{
+  "name": "student-2119-homework-4",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "query": "hardhat run scripts/connect-query.ts --network polka",
+    "transfer": "hardhat run scripts/send-transfer.ts --network polka",
+    "deploy": "hardhat run scripts/deploy-and-interact.ts --network polka",
+    "simulate": "hardhat run scripts/deploy-and-interact.ts --network hardhatMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.4",
+    "@types/node": "^22.19.17",
+    "hardhat": "^3.4.1",
+    "typescript": "~5.8.3",
+    "viem": "^2.48.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
