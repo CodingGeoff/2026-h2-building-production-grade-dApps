@@ -1,0 +1,24 @@
+{
+  "name": "student-2231-hw2",
+  "version": "1.0.0",
+  "description": "Homework 2 - Address conversion & precompile call on Polkadot Hub TestNet",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "task1": "tsx src/task1-address-conversion.ts",
+    "task2": "tsx src/task2-precompile.ts"
+  },
+  "dependencies": {
+    "viem": "^2.21.0",
+    "@polkadot/api": "^14.3.0",
+    "@polkadot/util": "^13.2.0",
+    "@polkadot/util-crypto": "^13.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tsx": "^4.19.0",
+    "typescript": "~5.3.3"
+  }
+}
